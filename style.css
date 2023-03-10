@@ -22,13 +22,13 @@ body {
     text-transform: uppercase;
     text-shadow: 0 0 2vw rgba(0, 0, 0, 0.5);
     color: white;
-    line-height: 5vh;
+    line-height: 3vw;
 }
 
 a {
     text-decoration: none;
     color: white;
-    margin-bottom: 5vh;
+    margin-bottom: 3vw;
 }
 
 .block {
@@ -36,23 +36,23 @@ a {
     justify-content: space-around;
     width: 100vw;
     position: absolute;
-    bottom: 5vh;
+    bottom: 3vw;
 }
 
 #final {
     position: absolute;
-    bottom: 5vh;
+    bottom: 5vw;
 }
 
 p {
     width: 80vw;
-    margin: 5vh auto;
+    margin: 5vw auto;
 }
 
 input[type='text'] {
     width: 30vw;
-    height: 5vh;
-    padding: 5vh;
+    height: 5vw;
+    padding: 3vw;
     text-align: center;
     text-transform: uppercase;
     border: 0.1vw solid gray;
@@ -69,12 +69,18 @@ input[type='text'] {
 @media screen and (max-width: 1000px)  {
     body {
         font-size: 5vw;
-        bottom: 15vh;
+        bottom: 15vw;
+        line-height: 6vw;
+        font-size: 2.5vw;
     }
 
     .block {
         flex-direction: column;
     }
 
-
+    input[type='text'] {
+        width: 35vw;
+        padding: 5vw;   
+        font-size: 2.5vw;     
+    }
 }
