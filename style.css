@@ -65,3 +65,16 @@ input[type='text'] {
     position: fixed;
     top: 50%;
 }
+
+@media screen and (max-width: 1000px)  {
+    body {
+        font-size: 5vw;
+        bottom: 15vh;
+    }
+
+    .block {
+        flex-direction: column;
+    }
+
+
+}
