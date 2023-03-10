@@ -71,11 +71,15 @@ input[type='text'] {
         font-size: 5vw;
         bottom: 15vw;
         line-height: 6vw;
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 
     .block {
         flex-direction: column;
+    }
+
+    a {
+        margin-bottom: 15vw;
     }
 
     input[type='text'] {
