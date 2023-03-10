@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;  
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-between; 
+    height: 100vh; 
+    width: 100vw; 
+    overflow: hidden;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 400;
+    font-size: 2vw;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 2vw rgba(0, 0, 0, 0.5);
+    color: white;
+    line-height: 5vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+.block {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    position: absolute;
+    bottom: 5vh;
+}
+
+#final {
+    position: absolute;
+    bottom: 5vh;
+}
+
+p {
+    width: 80vw;
+    margin: 5vh auto;
+}
+
+input[type='text'] {
+    width: 30vw;
+    height: 5vh;
+    padding: 5vh;
+    text-align: center;
+    text-transform: uppercase;
+    border: 0.1vw solid gray;
+    outline: none;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2vw;
+    font-weight: 700;
+    text-shadow: 0 0 5vw rgba(0, 0, 0, 0.5);
+    color: red;
+    position: fixed;
+    top: 50%;
+}

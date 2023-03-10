@@ -8,79 +8,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <style>
         body {
-            background-image: url('./img/1.jpg'); /*картинка на фон*/
-            background-repeat: no-repeat; /*не повторять*/
-            background-size: cover;  /*растянуть по размеру экрана*/
-            display: flex;  
-            align-items: center; /*центрирование по вертикали*/
-            justify-content: center; /*центрирование по горизонтали*/
-            height: 100vh; /*100% от экрана устройства*/
-            width: 100vw; /*100% от экрана устройства*/
-            overflow: hidden; /* убрать скролл */
-        }
+            background-image: url('./img/1.jpg');    
+            color: rgb(249, 219, 198);            
+        }           
         
-        p {
-            font-family: 'Press Start 2P', cursive;
-            font-weight: 400;
-            font-size: 2vw;
-            text-align: center;
-            text-transform: uppercase;
-            text-shadow: 0 0 2vw rgba(0, 0, 0, 0.5);
-            color: rgb(249, 219, 198);
-            position: absolute;
-            top: 5%;
-            left: 15%;
-        }
-
-        .first {
-            position: absolute;
-            top: 50%;
-            left: 10%;
-            text-decoration: none;
-            font-family: 'Press Start 2P', cursive;
-            font-weight: 400;
-            font-size: 2vw;
-            text-align: center;
-            text-transform: uppercase;
-            text-shadow: 0 0 2vw rgba(0, 0, 0, 0.5);
-            color: rgb(249, 219, 198);
-        }
-
-        .second {
-            position: absolute;
-            top: 50%;
-            left: 45%;
-            text-decoration: none;
-            font-family: 'Press Start 2P', cursive;
-            font-weight: 400;
-            font-size: 2vw;
-            text-align: center;
-            text-transform: uppercase;
-            text-shadow: 0 0 2vw rgba(0, 0, 0, 0.5);
-            color: rgb(249, 219, 198);
-        }
-
-        .third {
-            position: absolute;
-            top: 50%;
-            left: 75%;
-            text-decoration: none;
-            font-family: 'Press Start 2P', cursive;
-            font-weight: 400;
-            font-size: 2vw;
-            text-align: center;
-            text-transform: uppercase;
-            text-shadow: 0 0 2vw rgba(0, 0, 0, 0.5);
-            color: rgb(249, 219, 198);
+        a {
+            color: rgb(249, 219, 198); 
         }
     </style>
 </head>
 <body>
     <p>Перед вами три пещеры. Куда пойдем?</p>
-    <a href="2.html" class="first">1 пещера</a>
-    <a href="3.html" class="second">2 пещера</a>
-    <a href="4.html" class="third">3 пещера</a>
+    <div class="block">
+        <a href="2.html">1 пещера</a>
+        <a href="3.html">2 пещера</a>
+        <a href="4.html">3 пещера</a>
+    </div>    
 </body>
 </html>
